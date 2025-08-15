@@ -1,0 +1,692 @@
+{
+  "article": {
+    "title": "Liverpool Edges Everton in Tense Merseyside Derby to Extend Unbeaten Streak",
+    "shortTitle": "Jota's Strike Secures Reds' Derby Win",
+    "components": [
+      {
+        "type": "Paragraph",
+        "text": "In a match that carried the weight of history and future aspirations, Liverpool emerged victorious over Everton with a narrow 1-0 win at Anfield. This Merseyside Derby was more than just another fixture; it was a chance for The Reds to solidify their dominance in the league and extend their unbeaten streak to an impressive 26 matches. For Everton, it was an opportunity to break free from a challenging season and reignite hope among their supporters. Yet, as the final whistle blew, it was Liverpool who celebrated, leaving Everton to ponder what might have been."
+      },
+      {
+        "type": "Paragraph",
+        "text": "The first half unfolded with Liverpool asserting their control, dominating possession but finding Everton's defense resilient. Despite having the lion's share of the ball, The Reds struggled to convert their territorial advantage into clear-cut chances. As halftime arrived with the scoreline still goalless, there was a palpable tension in the airÔÇöa sense that this derby could hinge on a single moment of brilliance or error."
+      },
+      {
+        "type": "Paragraph",
+        "text": "That moment came early in the second half when Diogo Jota broke the deadlock in the 57th minute. A deft assist from Luis D├¡az set up Jota, whose clinical finish sent Anfield into raptures. It was a goal that not only underscored Liverpool's attacking prowess but also highlighted D├¡az's growing influence in midfieldÔÇöa player who has consistently delivered under pressure."
+      },
+      {
+        "type": "Paragraph",
+        "text": "Everton, despite their struggles this season, showed resilience but were unable to muster a significant threat against Liverpool's well-organized defense. Their inability to register a single shot on target throughout the match reflected ongoing issues in front of goalÔÇöa problem that has plagued them all season and one they must address urgently if they are to climb out of their current predicament."
+      },
+      {
+        "type": "Paragraph",
+        "text": "For Liverpool, this victory not only maintained their position at the top of the Premier League table but also reinforced their credentials as title contenders. With eight games remaining and a comfortable lead over Arsenal, who sit nine points behind after their recent win against Fulham, The Reds are well-positioned to push for glory."
+      },
+      {
+        "type": "Paragraph",
+        "text": "As both teams look ahead, Liverpool will travel to Craven Cottage for what appears to be an easier fixture against Fulham. Meanwhile, Everton faces a daunting task against Arsenal at Goodison ParkÔÇöa match that could further define their season's trajectory. For now, though, it's Liverpool who savor this derby triumph, while Everton must regroup and find answers quickly."
+      }
+    ]
+  },
+  "metadata": {
+    "request": {
+      "fixture": "Liverpool vs Everton",
+      "date": "2025-04-02T19:00:00+00:00",
+      "team_nicknames": {
+        "Liverpool": "The Reds",
+        "Everton": "The Toffees"
+      },
+      "competition": "England, Premier League",
+      "score_overview": {
+        "halftime": "0-0",
+        "fulltime": "1-0"
+      },
+      "venue": {
+        "name": "Anfield",
+        "city": "Liverpool"
+      },
+      "analysis": {
+        "writing_instructions_analysis": {
+          "profile": "balanced-insightful-match-narrative",
+          "description": "A football journalist delivering post-match articles with a clear, structured narrative. The tone blends factual analysis with light emotional awareness, maintaining objectivity while acknowledging the broader significance of key moments and trends for teams and supporters.",
+          "instructions": [
+            "Act as a sports journalist writing immediately after a football match ends.",
+            "Use a clear, structured narrative that highlights key moments and their significance to the match, season, or team form.",
+            "Focus on momentum shifts, standout performances, and tactical turning points, explained in accessible terms.",
+            "Open by tying the result to a meaningful trend, milestone, or shift in team dynamics or standings.",
+            "Maintain a balanced tone: factual and objective but not clinical. Use light emotional cues when naturally appropriate (e.g., turning points, streaks, or major milestones).",
+            "Avoid listing raw statistics or abbreviations. Explain what relevant numbers reveal about team form or tactics.",
+            "Weave both teams into a single, cohesive story. Do not separate into dedicated sections.",
+            "Use moderate paragraph lengths (2ÔÇô3 sentences), varying sentence length for a smooth, readable rhythm.",
+            "Use restrained, descriptive language. Avoid overly vivid or dramatic phrasing.",
+            "Acknowledge supporter sentiment briefly when it adds meaningful context but avoid fan-centric language.",
+            "For goals scored on penalties, clearly state it was a penalty.",
+            "Mention red cards and injury substitutions, including potential impact on upcoming fixtures.",
+            "Reference matches played between previous and current matchday where they influenced team morale or performance.",
+            "Note if cup eliminations or progress affected this match's approach or energy.",
+            "Highlight the competitive significance of upcoming fixtures, especially against direct contenders.",
+            "Include the next league fixture, noting any scheduling changes affecting preparation or rhythm.",
+            "Mention comebacks from injury with duration missed if it shaped the team's options or dynamics.",
+            "When streaks (winning, unbeaten, losing) reach three matches, frame them as part of the broader form narrative.",
+            "Describe recent form in conversational terms (e.g., 'They had not won in several games'), avoiding detailed result strings.",
+            "Note if a coach records a first win or first defeat, mentioning it as a milestone without excessive emphasis.",
+            "For standings, note position changes and clarify if they may be temporary due to pending rival matches.",
+            "Ensure smooth flow without redundant information or rephrasing.",
+            "Use moderate transitional phrasing to maintain reader engagement without fan-centric language.",
+            "Title (max 100 characters): Focus on the matchÔÇÖs key narrative or competitive turning point, avoiding scorelines.",
+            "ShortTitle (max 60ÔÇô65 characters): Emphasize a key player, tactical shift, or result trend, avoiding scorelines.",
+            "Ensure all claims and data are consistent, and clarify any apparent contradictions by providing context.",
+            "If the match is Delayed or Advanced, include the information in the Title and the first paragraph of the match report.",
+            "If the previous match was Delayed or Advanced, include the information in the first paragraph of the match report.",
+            "if there are other cup or league fixtures played before the match, include the information in the match report absolutely."
+          ]
+        },
+        "events_analysis": [
+          {
+            "event": "Goal",
+            "time": {
+              "elapsed": 57
+            },
+            "team": "Liverpool",
+            "player": {
+              "short_name": "Diogo Jota",
+              "full_name": "Diogo Jota",
+              "position": "Forward"
+            },
+            "assist": {
+              "short_name": "L. D├¡az",
+              "full_name": "Luis D├¡az",
+              "position": "Midfielder"
+            }
+          }
+        ],
+        "stats_analysis": {
+          "Liverpool": {
+            "first_half": {
+              "shots_on_goal": "1",
+              "shots_off_goal": "4",
+              "shots": "8",
+              "blocked_shots": "3",
+              "fouls": "0",
+              "corners": "5",
+              "offsides": "0",
+              "possession": "72%",
+              "yellow_cards": "0",
+              "red_cards": "0",
+              "goalkeeper_saves": "0",
+              "total_passes": "302",
+              "success_passes_percentage": "90%"
+            },
+            "second_half": {
+              "shots_on_goal": "2",
+              "shots_off_goal": "1",
+              "shots": "9",
+              "blocked_shots": "6",
+              "fouls": "0",
+              "corners": "6",
+              "offsides": "2",
+              "possession": "76%",
+              "yellow_cards": "2",
+              "red_cards": "0",
+              "goalkeeper_saves": "0",
+              "total_passes": "299",
+              "success_passes_percentage": "84%"
+            }
+          },
+          "Everton": {
+            "first_half": {
+              "shots_on_goal": "0",
+              "shots_off_goal": "2",
+              "shots": "4",
+              "blocked_shots": "2",
+              "fouls": "0",
+              "corners": "2",
+              "offsides": "2",
+              "possession": "28%",
+              "yellow_cards": "2",
+              "red_cards": "0",
+              "goalkeeper_saves": "2",
+              "total_passes": "115",
+              "success_passes_percentage": "69%"
+            },
+            "second_half": {
+              "shots_on_goal": "0",
+              "shots_off_goal": "0",
+              "shots": "1",
+              "blocked_shots": "1",
+              "fouls": "0",
+              "corners": "3",
+              "offsides": "2",
+              "possession": "24%",
+              "yellow_cards": "0",
+              "red_cards": "0",
+              "goalkeeper_saves": "1",
+              "total_passes": "89",
+              "success_passes_percentage": "57%"
+            }
+          }
+        },
+        "coaches_analysis": {
+          "Liverpool": {
+            "name": "A. Slot"
+          },
+          "Everton": {
+            "name": "D. Moyes"
+          }
+        },
+        "other_cup_or_league_fixtures_played_before_match": {
+          "Liverpool": [
+            {
+              "league_name": "UEFA Champions League",
+              "round": "Round of 16",
+              "date": "2025-03-11T20:00:00+00:00",
+              "location": "Home",
+              "opponent": "Paris Saint Germain",
+              "legs": "2/2",
+              "second_leg": true,
+              "match_report": "In the UEFA Champions League Round of 16, Liverpool hosted Paris Saint Germain, seeking to overturn a deficit from the first leg. Early on, Ousmane Demb├®l├®'s 12th-minute strike put PSG ahead, maintaining their lead throughout. Despite Liverpool's efforts, the match remained 1-0 into extra time. In the decisive penalty shootout, Mohamed Salah scored for Liverpool, but misses from Darwin N├║├▒ez and Curtis Jones sealed their fate. PSG advanced with a 4-1 shootout victory, eliminating Liverpool."
+            },
+            {
+              "league_name": "League Cup",
+              "round": "Final",
+              "date": "2025-03-16T16:30:00+00:00",
+              "location": "Home",
+              "opponent": "Newcastle",
+              "match_report": "In the League Cup Final, Liverpool faced Newcastle at home. Newcastle took the lead just before halftime with Dan Burn scoring from a Kieran Trippier assist. The momentum continued for Newcastle as Alexander Isak doubled their lead early in the second half, assisted by Jacob Murphy. Despite Liverpool's late surge, Federico Chiesa's injury-time goal, set up by Harvey Elliott, wasn't enough to overturn the deficit. Newcastle triumphed 2-1, claiming the League Cup title."
+            }
+          ]
+        },
+        "head_to_head_last_two_years": {
+          "derby": "Merseyside Derby",
+          "wins": {
+            "Liverpool": 1,
+            "Everton": 1
+          },
+          "draws": 1
+        },
+        "returned_players_after_missing_games_analysis": {
+          "key_information": "yes",
+          "Liverpool": [
+            {
+              "id": 247,
+              "name": "C. Gakpo",
+              "photo": "https://media.api-sports.io/football/players/247.png",
+              "type": "Questionable",
+              "reason": "Injury",
+              "missed_period": {
+                "months": 1,
+                "weeks": 2,
+                "days": 3
+              }
+            }
+          ],
+          "Everton": [
+            {
+              "id": 18592,
+              "name": "I. Ndiaye",
+              "photo": "https://media.api-sports.io/football/players/18592.png",
+              "type": "Missing Fixture",
+              "reason": "Knee Injury",
+              "missed_period": {
+                "months": 1,
+                "weeks": 2,
+                "days": 4
+              }
+            }
+          ]
+        },
+        "last_matches_before_current_match_for_both_team": {
+          "key_information": "yes",
+          "Liverpool": {
+            "match_report": "In a thrilling Premier League clash, Liverpool showcased resilience at Anfield, overcoming a halftime deficit to defeat Southampton 3-1. Will Smallbone's first-half strike put the visitors ahead, but Liverpool roared back in the second half. Darwin N├║├▒ez equalized with a Luis D├¡az assist, sparking a comeback. Mohamed Salah then converted two penalties, the second following a VAR review, sealing the victory. This win, characterized by a spirited turnaround, solidified Liverpool's fighting spirit in the league."
+          },
+          "Everton": {
+            "match_report": "In a gripping Premier League clash at Goodison Park, Everton and West Ham shared the spoils in a 1-1 draw. The first half ended goalless, with Everton's Beto having a penalty decision overturned by VAR. West Ham took the lead in the 67th minute through Tom├í┼í Sou─ìek, assisted by Jarrod Bowen. However, Everton's resilience shone through as Jake O'Brien equalized in stoppage time, with Idrissa Gueye providing the assist, ensuring a hard-fought draw for the hosts."
+          }
+        },
+        "pre_round_teams_season_form": {
+          "from_oldest_to_newest": {
+            "Liverpool": "WWWLWWWWDWWWWDDWWWDDWWWDWDWWW",
+            "Everton": "LLLLDWDWDLDDLWDDDLLLWWWDWDDDD"
+          }
+        },
+        "next_fixtures_analysis": {
+          "key_information": "yes",
+          "Liverpool": {
+            "next_league_fixture": {
+              "fixture_info": {
+                "venue": "Craven Cottage",
+                "round": "Regular Season - 31",
+                "date": "2025-04-06T13:00:00+00:00",
+                "opponent": "Fulham"
+              },
+              "fixture_difficulty": "Easy match"
+            }
+          },
+          "Everton": {
+            "next_league_fixture": {
+              "fixture_info": {
+                "venue": "Goodison Park",
+                "round": "Regular Season - 31",
+                "date": "2025-04-05T11:30:00+00:00",
+                "opponent": "Arsenal"
+              },
+              "fixture_difficulty": "Moderately difficult match"
+            }
+          }
+        },
+        "team_season_trends_after_game_analysis": {
+          "Liverpool": {
+            "match_outcome_trends": {
+              "team_trends": [
+                "Liverpool has maintained an impressive unbeaten streak of 26 matches in the Premier League.",
+                "Liverpool has won their last 5 home matches, showcasing strong home form.",
+                "Liverpool has kept a clean sheet in 3 of their last 5 matches, indicating improved defensive solidity."
+              ],
+              "noteworthy_team_events": [
+                "Liverpool secured a clean sheet against Everton, marking their 13th clean sheet of the season.",
+                "Liverpool's victory over Everton extended their winning streak to 4 matches.",
+                "Liverpool has not been goalless in any of their last 26 matches, highlighting their consistent attacking prowess."
+              ]
+            }
+          },
+          "Everton": {
+            "match_outcome_trends": {
+              "team_trends": [
+                "Everton has struggled to maintain leads, having surrendered leads in multiple matches this season.",
+                "Everton has been goalless in 13 out of 30 matches this season, indicating a challenge in finding the back of the net.",
+                "Everton has not kept a clean sheet in their last 5 matches, showing defensive vulnerabilities."
+              ],
+              "noteworthy_team_events": [
+                "Everton's last match against Liverpool marked their 5th consecutive match without a win.",
+                "Everton's goalless performance against Liverpool was their 13th goalless match of the season.",
+                "Everton's last clean sheet was on February 1st, 2025, against Leicester, highlighting a defensive struggle."
+              ]
+            }
+          }
+        },
+        "official_game_tweets": [],
+        "international_break_info": {
+          "first_game_played_after_international_break": "This is the first game after international break",
+          "reason_passed_international_break": "UEFA Nations League quarterfinals and World Cup qualifying matches across different confederations"
+        },
+        "attack_and_defense_observations": {
+          "before_game": {
+            "team_that_scored_most_goals_in_league": {
+              "Liverpool": "Liverpool is the team that scored the most in the league since season debut with 69 goals scored"
+            }
+          },
+          "after_game": {
+            "team_that_scored_most_goals_in_league": {
+              "Liverpool": "Liverpool is the team that scored the most in the league since season debut with 70 goals scored"
+            }
+          }
+        },
+        "teams_status": {
+          "teams_status": {
+            "Liverpool": {
+              "spot_status": {
+                "last_game_result": {
+                  "home": 1,
+                  "away": 0
+                },
+                "pre_round_team_status": {
+                  "teamId": 40,
+                  "teamName": "Liverpool",
+                  "canStillBeChampion": true,
+                  "canStillBeQualifiedForChampionsLeague": true,
+                  "canStillBeQualifiedForEuropaLeague": true,
+                  "canStillBeQualifiedForEuropaConferenceLeague": true,
+                  "isRelegated": true,
+                  "currentPoints": 70,
+                  "played": 29,
+                  "gamesLeft": 9,
+                  "potentialMaxPoints": 97,
+                  "currentRank": 1,
+                  "potentialMaxRank": 1,
+                  "worstCaseRank": 10,
+                  "hasRelevantGamesInHand": true,
+                  "pointsToSecureChampionship": 16
+                },
+                "before_game_team_status": {
+                  "teamId": 40,
+                  "teamName": "Liverpool",
+                  "canStillBeChampion": true,
+                  "canStillBeQualifiedForChampionsLeague": true,
+                  "canStillBeQualifiedForEuropaLeague": true,
+                  "canStillBeQualifiedForEuropaConferenceLeague": true,
+                  "isRelegated": true,
+                  "currentPoints": 70,
+                  "played": 29,
+                  "gamesLeft": 9,
+                  "potentialMaxPoints": 97,
+                  "currentRank": 1,
+                  "potentialMaxRank": 1,
+                  "worstCaseRank": 8,
+                  "maxPointsIfWinGamesBehind": 73,
+                  "canEnterContinentalCupAfterGamesInHand": false,
+                  "hasRelevantGamesInHand": false,
+                  "pointsToSecureChampionship": 16
+                },
+                "after_game_team_status": {
+                  "teamId": 40,
+                  "teamName": "Liverpool",
+                  "canStillBeChampion": true,
+                  "canStillBeQualifiedForChampionsLeague": true,
+                  "isQualifiedForEuropaLeague": true,
+                  "isRelegated": true,
+                  "currentPoints": 73,
+                  "played": 30,
+                  "gamesLeft": 8,
+                  "potentialMaxPoints": 97,
+                  "currentRank": 1,
+                  "potentialMaxRank": 1,
+                  "worstCaseRank": 6,
+                  "hasRelevantGamesInHand": true,
+                  "pointsToSecureChampionship": 13
+                }
+              },
+              "report": "Liverpool secured a crucial 1-0 victory in their last match, maintaining their top spot with 73 points. This win has strengthened their position as potential champions and ensured qualification for the Europa League. With eight games remaining, Liverpool's focus is on securing 13 more points to clinch the championship. Despite being theoretically relegated, they remain contenders for all major European competitions due to a unique league structure. Their current form and strategic advantage of having relevant games in hand keep them well-positioned to finish the season strongly."
+            },
+            "Everton": {
+              "spot_status": {
+                "last_game_result": {
+                  "home": 1,
+                  "away": 0
+                },
+                "pre_round_team_status": {
+                  "teamId": 45,
+                  "teamName": "Everton",
+                  "canStillBeChampion": false,
+                  "canStillBeQualifiedForChampionsLeague": true,
+                  "canStillBeQualifiedForEuropaLeague": true,
+                  "canStillBeQualifiedForEuropaConferenceLeague": true,
+                  "isRelegated": true,
+                  "currentPoints": 34,
+                  "played": 29,
+                  "gamesLeft": 9,
+                  "potentialMaxPoints": 61,
+                  "currentRank": 15,
+                  "potentialMaxRank": 2,
+                  "worstCaseRank": 20,
+                  "hasRelevantGamesInHand": true,
+                  "pointsToSecureChampionship": null
+                },
+                "before_game_team_status": {
+                  "teamId": 45,
+                  "teamName": "Everton",
+                  "canStillBeChampion": false,
+                  "canStillBeQualifiedForChampionsLeague": true,
+                  "canStillBeQualifiedForEuropaLeague": true,
+                  "canStillBeQualifiedForEuropaConferenceLeague": true,
+                  "isRelegated": true,
+                  "currentPoints": 34,
+                  "played": 29,
+                  "gamesLeft": 9,
+                  "potentialMaxPoints": 61,
+                  "currentRank": 15,
+                  "potentialMaxRank": 3,
+                  "worstCaseRank": 19,
+                  "maxPointsIfWinGamesBehind": 37,
+                  "canEnterContinentalCupAfterGamesInHand": false,
+                  "hasRelevantGamesInHand": false,
+                  "pointsToSecureChampionship": null
+                },
+                "after_game_team_status": {
+                  "teamId": 45,
+                  "teamName": "Everton",
+                  "canStillBeChampion": false,
+                  "canStillBeQualifiedForChampionsLeague": true,
+                  "canStillBeQualifiedForEuropaLeague": true,
+                  "canStillBeQualifiedForEuropaConferenceLeague": true,
+                  "isRelegated": true,
+                  "currentPoints": 34,
+                  "played": 30,
+                  "gamesLeft": 8,
+                  "potentialMaxPoints": 58,
+                  "currentRank": 15,
+                  "potentialMaxRank": 3,
+                  "worstCaseRank": 19,
+                  "hasRelevantGamesInHand": true,
+                  "pointsToSecureChampionship": null
+                }
+              },
+              "report": "Everton secured a crucial 1-0 home victory in their last match, maintaining their position at 15th with 34 points. Despite being relegated, the win keeps their hopes alive for qualifying for European competitions, as they can still aim for Champions League, Europa League, or Europa Conference League spots. With eight games left and a potential maximum of 58 points, Everton's focus remains on climbing the ranks and leveraging relevant games in hand to improve their standing. The victory has slightly enhanced their potential max rank from 3rd to 2nd if they capitalize on remaining opportunities."
+            }
+          }
+        },
+        "next_leader_match_possible_impact_on_title": {},
+        "teams_contenders_and_round_game": {
+          "teams_contenders": {
+            "pre_round": {
+              "Liverpool": {
+                "above": [],
+                "below": [
+                  {
+                    "id": 42,
+                    "name": "Arsenal",
+                    "points": 58,
+                    "goalsFor": 53,
+                    "goalsAgainst": 24,
+                    "gamesPlayed": 29,
+                    "rank": 2,
+                    "rankDifference": 1,
+                    "pointDifference": -12
+                  }
+                ],
+                "direct": []
+              },
+              "Everton": {
+                "above": [
+                  {
+                    "id": 47,
+                    "name": "Tottenham",
+                    "points": 34,
+                    "goalsFor": 55,
+                    "goalsAgainst": 43,
+                    "gamesPlayed": 29,
+                    "rank": 14,
+                    "rankDifference": 1,
+                    "pointDifference": 0
+                  }
+                ],
+                "below": [
+                  {
+                    "id": 48,
+                    "name": "West Ham",
+                    "points": 34,
+                    "goalsFor": 33,
+                    "goalsAgainst": 49,
+                    "gamesPlayed": 29,
+                    "rank": 16,
+                    "rankDifference": 1,
+                    "pointDifference": 0
+                  }
+                ],
+                "direct": []
+              }
+            },
+            "before_game": {
+              "Liverpool": {
+                "above": [],
+                "below": [
+                  {
+                    "id": 42,
+                    "name": "Arsenal",
+                    "points": 61,
+                    "goalsFor": 55,
+                    "goalsAgainst": 25,
+                    "gamesPlayed": 30,
+                    "rank": 2,
+                    "rankDifference": 1,
+                    "pointDifference": -9
+                  }
+                ],
+                "direct": []
+              },
+              "Everton": {
+                "above": [
+                  {
+                    "id": 47,
+                    "name": "Tottenham",
+                    "points": 34,
+                    "goalsFor": 55,
+                    "goalsAgainst": 43,
+                    "gamesPlayed": 29,
+                    "rank": 14,
+                    "rankDifference": 1,
+                    "pointDifference": 0
+                  }
+                ],
+                "below": [
+                  {
+                    "id": 48,
+                    "name": "West Ham",
+                    "points": 34,
+                    "goalsFor": 33,
+                    "goalsAgainst": 50,
+                    "gamesPlayed": 30,
+                    "rank": 16,
+                    "rankDifference": 1,
+                    "pointDifference": 0
+                  }
+                ],
+                "direct": []
+              }
+            },
+            "after_game": {
+              "Liverpool": {
+                "above": [],
+                "below": [
+                  {
+                    "id": 42,
+                    "name": "Arsenal",
+                    "points": 61,
+                    "goalsFor": 55,
+                    "goalsAgainst": 25,
+                    "gamesPlayed": 30,
+                    "rank": 2,
+                    "rankDifference": 1,
+                    "pointDifference": -12
+                  }
+                ],
+                "direct": []
+              },
+              "Everton": {
+                "above": [
+                  {
+                    "id": 47,
+                    "name": "Tottenham",
+                    "points": 34,
+                    "goalsFor": 55,
+                    "goalsAgainst": 43,
+                    "gamesPlayed": 29,
+                    "rank": 14,
+                    "rankDifference": 1,
+                    "pointDifference": 0
+                  }
+                ],
+                "below": [
+                  {
+                    "id": 48,
+                    "name": "West Ham",
+                    "points": 34,
+                    "goalsFor": 33,
+                    "goalsAgainst": 50,
+                    "gamesPlayed": 30,
+                    "rank": 16,
+                    "rankDifference": 1,
+                    "pointDifference": 0
+                  }
+                ],
+                "direct": []
+              }
+            }
+          },
+          "team_contenders_round_game": {
+            "pre_round": {
+              "Arsenal": "Already played match  : Arsenal won at home, 2-1 against Fulham at 2025-04-01T18:45:00+00:00.",
+              "Tottenham": "Chelsea will play at home against Tottenham at 2025-04-03T19:00:00+00:00",
+              "West Ham": "Already played match  : Wolves won at home, 1-0 against West Ham at 2025-04-01T18:45:00+00:00."
+            },
+            "before_game": {
+              "Arsenal": "Already played match  : Arsenal won at home, 2-1 against Fulham at 2025-04-01T18:45:00+00:00.",
+              "Tottenham": "Chelsea will play at home against Tottenham at 2025-04-03T19:00:00+00:00",
+              "West Ham": "Already played match  : Wolves won at home, 1-0 against West Ham at 2025-04-01T18:45:00+00:00."
+            },
+            "after_game": {
+              "Arsenal": "Already played match  : Arsenal won at home, 2-1 against Fulham at 2025-04-01T18:45:00+00:00.",
+              "Tottenham": "Chelsea will play at home against Tottenham at 2025-04-03T19:00:00+00:00",
+              "West Ham": "Already played match  : Wolves won at home, 1-0 against West Ham at 2025-04-01T18:45:00+00:00."
+            }
+          }
+        }
+      }
+    },
+    "AI": {
+      "provider": "openai",
+      "model": "gpt-4-0125-preview",
+      "configuration": {
+        "temperature": 0.1,
+        "top_p": 0.8,
+        "frequency_penalty": 0.3,
+        "presence_penalty": 0.4
+      },
+      "usage": {
+        "prompt_tokens": 4626,
+        "completion_tokens": 620,
+        "total_tokens": 5246,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      }
+    }
+  },
+  "fixture": {
+    "id": 1208322,
+    "sport": "Football",
+    "season": 2024,
+    "startDate": "2025-04-02T19:00:00+00:00",
+    "league": {
+      "id": 39,
+      "name": "Premier League",
+      "country_code": "en",
+      "gender": "M"
+    },
+    "venue": {
+      "name": "Anfield",
+      "city": "Liverpool"
+    },
+    "round": {
+      "name": "Regular Season - 30",
+      "code": "MD30"
+    },
+    "teams": {
+      "home": {
+        "id": 40,
+        "name": "Liverpool",
+        "logo": "https://media.api-sports.io/football/teams/40.png"
+      },
+      "away": {
+        "id": 45,
+        "name": "Everton",
+        "logo": "https://media.api-sports.io/football/teams/45.png"
+      }
+    },
+    "score": {
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "penalties": null
+    }
+  }
+}
