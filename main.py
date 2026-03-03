@@ -1,99 +1,119 @@
+# mon_tuple = (1, 2, 3, 4, 5)
+# print("Le contenu du tuple est :", mon_tuple)
+# print(mon_tuple[2])  # Affiche le troisième élément du tuple
+# mon_tuple_bis = ("cinq", "six")
+# mon_nouveau_tuple = mon_tuple + mon_tuple_bis
+# print("Le nouveau tuple est :", mon_nouveau_tuple)
+# print(5 in mon_nouveau_tuple)  # Vérifie si 5 est dans le nouveau tuple
+# print(len(mon_nouveau_tuple))  # Affiche la longueur du nouveau tuple
+# fruits = ["Pomme", "Banane", "Orange"]
+# fruits.append("Kiwi")
+# print("La liste des fruits est :", fruits)
+# fruits.remove("Orange")
+# print("La liste des fruits est :", fruits)
+# fruits[1] = "ananas"
+# print("La liste des fruits est :", fruits)
+# print(len(fruits))
+# fruits.sort()
+# print("La liste des fruits triée est :", fruits)
+# fruits.sort(key=str.lower)
+# print("La liste des fruits triée en ordre décroissant est :", fruits)
+# nouvelle_campagne = {
+#     "responsable_de_campagne" : "Jeanne D'arc",
+#     "nom_de_campagne" : "Campagne nous aimons les chiens",
+#     "date_de_debut" : "2024-06-01",
+#     "date_de_fin" : "2024-12-31",
+#     "budget" : 50000,
+#     "Influenceurs importants" : ["@influenceur1", "@influenceur2", "@influenceur3"]
+# }
+# print("Détails de la campagne :", nouvelle_campagne)
+# print("Nom de la campagne", nouvelle_campagne["nom_de_campagne"])
+# taux_de_conversion = {}
+# taux_de_conversion["Facebook"] = 0.05
+# taux_de_conversion["Instagram"] = 0.07
+# print("Taux de conversion :", taux_de_conversion)# Manipulation de tuples
+# taux_de_conversion = dict()
+# taux_de_conversion['facebook'] = 3.4
+# taux_de_conversion['instagram'] = 1.2
+# print("Taux de conversion :", taux_de_conversion)
+# print("Taux de conversion Facebook :", taux_de_conversion['facebook'])
 
-# import requests;
-from bs4 import BeautifulSoup;
+# infos_labradoodle = {
+#     "poids" : "13kg à 16kg",
+#     "origine": "Etats-Unis",
+# }
 
-from calculator.operations import sum, subtraction, multiplication, division;
+# print("Infos labradoodle :", infos_labradoodle)
+# infos_labradoodle["nom scientifique"] = "Canis lupus familiaris"
+# print("Infos labradoodle mises à jour :", infos_labradoodle)
+# infos_labradoodle["poids"] = "14kg à 18kg"
+# print("Infos labradoodle mises à jour :", infos_labradoodle)
 
-if (__name__ == "__main__"):
-    result = sum(5, 3);
-    print("The result of the sum is:", result);
-    result = subtraction(5, 3);
-    print("The result of the subtraction is:", result);
-    result = multiplication(5, 3);
-    print("The result of the multiplication is:", result);
-    result = division(5, 3);
-    print("The result of the division is:", result);
+# del infos_labradoodle["origine"]
+# print("Infos labradoodle après suppression de l'origine :", infos_labradoodle)
+# print(infos_labradoodle.keys())
+# print(infos_labradoodle.values())
+# print(infos_labradoodle.items())
+# print(infos_labradoodle.get("poids"))
+# print("poids" in infos_labradoodle)
+# print("taille" in infos_labradoodle)
+# print(infos_labradoodle.get("taille"))
+# infos_labradoodle.pop("poids")
+# print("Infos labradoodle après suppression du poids :", infos_labradoodle)
+# infos_labradoodle.clear()
+# print("Infos labradoodle après vidage du dictionnaire :", infos_labradoodle)
 
-    with open("index.html", "r") as file:
-        soup = BeautifulSoup(file, "html.parser");
-    title = soup.title.string;
-    h1Titre = soup.find("h1", id="titre");
-    produits = soup.find_all("li", class_="product");
-    print("Title of the HTML document:", title );
-    print("H1 Title of the HTML document:", h1Titre.string if h1Titre else "Not found");
-    print("List of products:");
+# fruits = {
+#     "pomme": "rouge",
+#     "banane": "jaune",
+#     "orange" : "orange"
+# }
 
-# Dictionnaire pour stocker les produits
-# all_products = dict()
+# fruits["kiwi"] = "vert"
+# print(fruits)
+# couleur_banane = fruits["banane"]
+# fruits["pomme"] = "vert"
+# print(fruits)
+# fruits.pop("banane")
+# print(fruits)
+# print(fruits.keys())
+# print(fruits.values())
 
-# # Extraction des noms et des prix des produits dans la liste
-# products = soup.find_all("li")
-# for product in products:
-#     name = product.find("h2").string
-#     price_str = product.find("p", class_="price").string
-#     # On sépare la chaine avec " " en liste de mots
-#     price_list = price_str.split(" ")
-#     # On récupère le prix (= deuxième mot)
-#     all_products[name] = {"prix": price_list[1]}
-    
-#     # Extraction de la description du produit
-#     # La description eest le dernier élément de la liste des paragraphes
-#     description = product.find_all("p")[-1].string
-#     all_products[name]["description"] = description
+print("Entrer les 2 nombres à manipuler :")
 
-# # Affichage des informations extraites
-# print("Produits:", all_products)
+nombre1 = input("Nombre 1 : ")
+nombre2 = input("Nombre 2 : ")
 
-# # Transformation des prix en dollars
-# for name in all_products.keys():
-#     price_str = all_products[name]["prix"]
-#     # Supprimer le symbole €
-#     price = price_str.strip("€")
-#     # Convertir en float
-#     price = float(price)
-#     dollar_price = price * 1.2
-#     all_products[name]["prix_dollar"] = f"{dollar_price}$"
+if not nombre1.isnumeric() or not nombre2.isnumeric():
+    print("Veuillez entrer des entiers valides.")
+    raise SystemExit("Fin du programme.")
+else:
+    print("Les nombres entrés sont :", nombre1, "et", nombre2)
+    nombre1 = int(nombre1)
+    nombre2 = int(nombre2)
 
-# Affichage avec les prix en dollars
-# print("Tous les produits:", all_products)
-list_produits = []
-for produit in produits:
-    nom = produit.find("h2").string if produit.find("h2") else "Not found"
-    prix = produit.find("p", class_="price").string if produit.find("p", class_="price") else "Not found"
-    
-    # Nettoyer le prix pour ne garder qu'un nombre
-    if prix and prix != "Not found":
-        # Retirer le mot 'prix' et ':'
-        parts = prix.split(":")
-        if len(parts) > 1:
-            prix = parts[1].strip()
-        else:
-            prix = parts[0].strip()
-        
-        # Retirer le symbole euro et autres caractères non numériques
-        prix_numerique = ''.join(filter(str.isdigit, prix))
-        
-        # Convertir en dollar si on a un prix numérique valide
-        if prix_numerique:
-            prix_euro = int(prix_numerique)
-            prix_dollar = prix_euro * 1.2
-            prix = f"{prix_dollar:.0f}$"  # Format avec symbole dollar
-        else:
-            prix = "Not found"
+    print("Entrer l'opération à effectuer (addition, soustraction, multiplication, division) :")
+
+    operation = input("Opération : ")
+
+    if not operation in ["+", "-", "*", "/"]:
+        raise SystemExit("Opération non valide. Fin du programme.")
     else:
-        prix = "Not found"
-    
-    description = produit.find("p", class_="description").string if produit.find("p", class_="description") else "Not found"
-    list_produits.append({"nom": nom, "prix": prix, "description": description})
-
-for p in list_produits:
-    print(f" - {p['nom']}: {p['prix']}, {p['description']}")
-
-    # response = requests.get("https://google.com");
-    # print("Response content:", response.content);
-
-
-
-
-
+        print("L'opération choisie est :", operation)
+        match operation:
+            case "+":
+                resultat = nombre1 + nombre2
+                print("Le résultat de l'addition est :", resultat)
+            case "-":
+                resultat = nombre1 - nombre2
+                print("Le résultat de la soustraction est :", resultat)
+            case "*":
+                resultat = nombre1 * nombre2
+                print("Le résultat de la multiplication est :", resultat)
+            case "/":
+                if nombre2 == 0:
+                    raise SystemExit("Division par zéro impossible. Fin du programme.")
+                else:
+                    resultat = nombre1 / nombre2
+                    print("Le résultat de la division est :", round(resultat, 2))
 
