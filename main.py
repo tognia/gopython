@@ -79,41 +79,89 @@
 # print(fruits.keys())
 # print(fruits.values())
 
-print("Entrer les 2 nombres à manipuler :")
+# print("Entrer les 2 nombres à manipuler :")
 
-nombre1 = input("Nombre 1 : ")
-nombre2 = input("Nombre 2 : ")
+# nombre1 = input("Nombre 1 : ")
+# nombre2 = input("Nombre 2 : ")
 
-if not nombre1.isnumeric() or not nombre2.isnumeric():
-    print("Veuillez entrer des entiers valides.")
-    raise SystemExit("Fin du programme.")
-else:
-    print("Les nombres entrés sont :", nombre1, "et", nombre2)
-    nombre1 = int(nombre1)
-    nombre2 = int(nombre2)
+# if not nombre1.isnumeric() or not nombre2.isnumeric():
+#     print("Veuillez entrer des entiers valides.")
+#     raise SystemExit("Fin du programme.")
+# else:
+#     print("Les nombres entrés sont :", nombre1, "et", nombre2)
+#     nombre1 = int(nombre1)
+#     nombre2 = int(nombre2)
 
-    print("Entrer l'opération à effectuer (addition, soustraction, multiplication, division) :")
+#     print("Entrer l'opération à effectuer (addition, soustraction, multiplication, division) :")
 
-    operation = input("Opération : ")
+#     operation = input("Opération : ")
 
-    if not operation in ["+", "-", "*", "/"]:
-        raise SystemExit("Opération non valide. Fin du programme.")
-    else:
-        print("L'opération choisie est :", operation)
-        match operation:
-            case "+":
-                resultat = nombre1 + nombre2
-                print("Le résultat de l'addition est :", resultat)
-            case "-":
-                resultat = nombre1 - nombre2
-                print("Le résultat de la soustraction est :", resultat)
-            case "*":
-                resultat = nombre1 * nombre2
-                print("Le résultat de la multiplication est :", resultat)
-            case "/":
-                if nombre2 == 0:
-                    raise SystemExit("Division par zéro impossible. Fin du programme.")
-                else:
-                    resultat = nombre1 / nombre2
-                    print("Le résultat de la division est :", round(resultat, 2))
+#     if not operation in ["+", "-", "*", "/"]:
+#         raise SystemExit("Opération non valide. Fin du programme.")
+#     else:
+#         print("L'opération choisie est :", operation)
+#         match operation:
+#             case "+":
+#                 resultat = nombre1 + nombre2
+#                 print("Le résultat de l'addition est :", resultat)
+#             case "-":
+#                 resultat = nombre1 - nombre2
+#                 print("Le résultat de la soustraction est :", resultat)
+#             case "*":
+#                 resultat = nombre1 * nombre2
+#                 print("Le résultat de la multiplication est :", resultat)
+#             case "/":
+#                 if nombre2 == 0:
+#                     raise SystemExit("Division par zéro impossible. Fin du programme.")
+#                 else:
+#                     resultat = nombre1 / nombre2
+#                     print("Le résultat de la division est :", round(resultat, 2))
 
+# races_de_chien = ["golden retriever", "chihuahua", "terrier", "carlin"]
+
+# for chien in races_de_chien:
+#     print(chien)
+# for x in range(5):
+#     print(x)
+# for y in range(2, 10):
+#     print(y)
+
+# capacite_maximale = 10
+# capacite_actuelle = 3
+
+# while capacite_actuelle < capacite_maximale:
+#     print("Capacité actuelle :", capacite_actuelle)
+#     capacite_actuelle += 1
+
+# for i in range(10):
+#     if i == 5:
+#         break
+#     print(i)
+
+# liste = [1, 2, 3, 4, 5]
+
+# for nombre in liste:
+#     if nombre == 3:
+#         continue
+#     print(nombre)
+
+print("Saisissez une liste de nombres séparés par des virgules :")
+
+saisie = input("Nombres : ")
+nombres = saisie.split(",")
+print("Liste des nombres :", nombres)
+liste_nombres = []
+for nombre in nombres:
+        liste_nombres.append(int(nombre))
+print("Liste des nombres valides :", liste_nombres)
+somme = sum(liste_nombres)
+print("La somme des nombres est :", somme)  
+
+moyenne = somme / len(liste_nombres)
+print("La moyenne des nombres est :", round(moyenne, 2))
+
+nombre_de_nombres_superieurs_a_moyenne = 0
+for nombre in liste_nombres:
+    if nombre > moyenne:
+        nombre_de_nombres_superieurs_a_moyenne += 1
+print("Nombre de nombres supérieurs à la moyenne :", nombre_de_nombres_superieurs_a_moyenne)
