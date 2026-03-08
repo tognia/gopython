@@ -145,23 +145,100 @@
 #         continue
 #     print(nombre)
 
-print("Saisissez une liste de nombres séparés par des virgules :")
+# print("Saisissez une liste de nombres séparés par des virgules :")
 
-saisie = input("Nombres : ")
-nombres = saisie.split(",")
-print("Liste des nombres :", nombres)
-liste_nombres = []
-for nombre in nombres:
-        liste_nombres.append(int(nombre))
-print("Liste des nombres valides :", liste_nombres)
-somme = sum(liste_nombres)
-print("La somme des nombres est :", somme)  
+# saisie = input("Nombres : ")
+# nombres = saisie.split(",")
+# print("Liste des nombres :", nombres)
+# liste_nombres = []
+# for nombre in nombres:
+#         liste_nombres.append(int(nombre))
+# print("Liste des nombres valides :", liste_nombres)
+# somme = sum(liste_nombres)
+# print("La somme des nombres est :", somme)  
 
-moyenne = somme / len(liste_nombres)
-print("La moyenne des nombres est :", round(moyenne, 2))
+# moyenne = somme / len(liste_nombres)
+# print("La moyenne des nombres est :", round(moyenne, 2))
 
-nombre_de_nombres_superieurs_a_moyenne = 0
-for nombre in liste_nombres:
-    if nombre > moyenne:
-        nombre_de_nombres_superieurs_a_moyenne += 1
-print("Nombre de nombres supérieurs à la moyenne :", nombre_de_nombres_superieurs_a_moyenne)
+# nombre_de_nombres_superieurs_a_moyenne = 0
+# for nombre in liste_nombres:
+#     if nombre > moyenne:
+#         nombre_de_nombres_superieurs_a_moyenne += 1
+# print("Nombre de nombres supérieurs à la moyenne :", nombre_de_nombres_superieurs_a_moyenne)
+
+# def salaire_mensuel(salaire_annuel):
+#         return salaire_annuel / 12
+
+# def salaire_hebdomadaire(salaire_mensuel):
+#         return salaire_mensuel / 4
+
+# def salaire_horaire(salaire_hebdomadaire, heures_travaillees):
+#         return salaire_hebdomadaire / heures_travaillees
+
+# print("Entrez votre salaire annuel :")
+# salaire_annuel = float(input())
+# salaire_mensuel = salaire_mensuel(salaire_annuel)
+# salaire_hebdomadaire = salaire_hebdomadaire(salaire_mensuel)
+# print("Entrez le nombre d'heures travaillées :")
+# heures_travaillees = float(input())
+# salaire_horaire = salaire_horaire(salaire_hebdomadaire, heures_travaillees)
+# print(f"Votre salaire horaire est de : {salaire_horaire:.2f}")
+
+def print_welcome_message():
+    print("Bienvenue sur la mini-calculatrice !")
+    
+def input_two_number():
+    num1 = float(input("Entrez le premier nombre : "))
+    num2 = float(input("Entrez le deuxième nombre : "))
+    return num1, num2
+
+def print_menu_and_get_choice():
+    print("=== MENU ===")
+    print("1. Addition")
+    print("2. Soustraction")
+    print("3. Multiplication")
+    print("4. Division")
+
+    user_choice = input("Entrez votre choix (1-4) : ")
+
+    while user_choice not in ["1", "2", "3", "4"]:
+
+        user_choice = input("Choix invalide. Entrez votre choix (1-4) : ")
+
+    return user_choice
+
+def sum(a, b):
+    return a + b
+
+def substraction(a, b):
+    return a - b
+
+def multiplication(a, b):
+    return a * b
+
+def division(a, b):
+    if b != 0:
+        return a / b
+    else:
+        print("Erreur : division par zéro")
+
+def run_calculation(user_choice):
+    num1, num2 = input_two_number()
+    match user_choice:
+        case '1':
+            result = sum(num1, num2)
+        case '2':
+            result = substraction(num1, num2)
+        case '3':
+            result = multiplication(num1, num2)
+        case '4':
+            result = division(num1, num2)
+        case _:
+            print("Choix invalide.")
+    return result
+
+if __name__ == '__main__':
+    print_welcome_message()
+    user_choice = print_menu_and_get_choice()
+    result = run_calculation(user_choice)
+    print(result)
