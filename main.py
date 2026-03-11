@@ -246,11 +246,19 @@
 
 from calculatornew.operations import sum, division
 import requests
+from bs4 import BeautifulSoup
 
-if __name__ == "__main__":
-    resultat = sum(20, 30)
-    resultat2 = division(30,2)
-    print(resultat, resultat2)
+# if __name__ == "__main__":
+#     resultat = sum(20, 30)
+#     resultat2 = division(30,2)
+#     print(resultat, resultat2)
+#     url = "https://www.gov.uk/search/news-and-communications"
+#     page = requests.get(url)
+#     html_code = page.text
+#     print(page.content)
 
-    resultat3 = requests.get("https://google.com")
-    print(resultat3.content)
+with open("index1.html", "r") as file:
+    soup = BeautifulSoup(file.read(), "html.parser")
+    print(soup.title.string)
+    print(soup.find_all('a'))
+    print(soup.find('a'))
