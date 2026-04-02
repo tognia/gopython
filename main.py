@@ -257,52 +257,83 @@ from bs4 import BeautifulSoup
 #     html_code = page.text
 #     print(page.content)
 
-with open("index.html", "r", encoding="utf-8") as file:
-    # soup = BeautifulSoup(file.read(), "html.parser")
-    soup = BeautifulSoup(file, "html.parser")
+# with open("index.html", "r", encoding="utf-8") as file:
+#     # soup = BeautifulSoup(file.read(), "html.parser")
+#     soup = BeautifulSoup(file, "html.parser")
 
-# Extraction du titre de la page
-title = soup.find("title")
-print("Titre de la Page ",title.text)
-# Extraction du texte de la balise h1
-h1_text = soup.find("h1").string
-print("Texte de la balise h1:", h1_text)
+# # Extraction du titre de la page
+# title = soup.find("title")
+# print("Titre de la Page ",title.text)
+# # Extraction du texte de la balise h1
+# h1_text = soup.find("h1").string
+# print("Texte de la balise h1:", h1_text)
 
-# Dictionnaire pour stocker tous les produits
+# # Dictionnaire pour stocker tous les produits
 
-all_products = dict()
+# all_products = dict()
 
-# Extraction des noms et des prix des produits dans la liste
-products = soup.find_all("li")
+# # Extraction des noms et des prix des produits dans la liste
+# products = soup.find_all("li")
 
-# Insertion des produits dans le dictionnaire
+# # Insertion des produits dans le dictionnaire
 
-for product in products:
-    name_product = product.find("h2").string
-    price_product = product.find("p", class_="price").string
-    price_list = price_product.split(" ")
-    all_products[name_product] = {"price" : price_list[1] }
-     # Extraction de la description du produit
-    # La description eest le dernier élément de la liste des paragraphes
-    description = product.find_all("p")[-1].string
-    all_products[name_product]["description"] = description
+# for product in products:
+#     name_product = product.find("h2").string
+#     price_product = product.find("p", class_="price").string
+#     price_list = price_product.split(" ")
+#     all_products[name_product] = {"price" : price_list[1] }
+#      # Extraction de la description du produit
+#     # La description eest le dernier élément de la liste des paragraphes
+#     description = product.find_all("p")[-1].string
+#     all_products[name_product]["description"] = description
 
-# Affichage des informations extraites
-print("Produits:", all_products)
+# # Affichage des informations extraites
+# print("Produits:", all_products)
 
-# Transformation des prix en dollars
-for name in all_products.keys():
-    price_str = all_products[name]["price"]
-    # Supprimer le symbole €
-    price = price_str.strip("€")
-    # Convertir en float
-    price = float(price)
-    dollar_price = price * 1.2
-    all_products[name]["price_dollar"] = f"{dollar_price}$"
+# # Transformation des prix en dollars
+# for name in all_products.keys():
+#     price_str = all_products[name]["price"]
+#     # Supprimer le symbole €
+#     price = price_str.strip("€")
+#     # Convertir en float
+#     price = float(price)
+#     dollar_price = price * 1.2
+#     all_products[name]["price_dollar"] = f"{dollar_price}$"
 
-    # Affichage avec les prix en dollars
-print("Tous les produits:", all_products)
+#     # Affichage avec les prix en dollars
+# print("Tous les produits:", all_products)
 
+# fichier = open("hello.txt", "w")
+# fichier.write("Hello, world!")
+# fichier.close()
+
+# with open("hello.txt", "r") as file:
+#     for line in file:
+#         print(line.strip())
+
+import csv
+
+# with open("couleurs_preferees.csv") as fichier_csv :
+#     # fichier_csv_reader = csv.reader(fichier_csv, delimiter=",")
+#     # for ligne in fichier_csv_reader:
+#     #     print(ligne)
+
+#     readeron = csv.DictReader(fichier_csv, delimiter=",")
+#     for ligne in readeron:
+#         print(ligne)
+#         print(ligne['nom']+" travaille en tant que "+ligne['metier']+" et sa couleur préférée est "+ ligne['couleur_preferee'])
+
+en_tete = ["titre", "description"]
+
+with open("data.csv", "w") as fichier_csv:
+     # Créer un objet writer (écriture) avec ce fichier
+     writer = csv.writer(fichier_csv, delimiter=",")
+     wrtiter.writerow(en_tete)
+     # Parcourir les titres et descriptions - zip permet d'itérer sur deux listes ou plus à la fois
+     for titre, description in zip(titres, descriptions):
+           # Créer une nouvelle ligne avec le titre et la description à ce moment de la boucle
+           ligne = [titre, description]   
+           writer.writerrow(ligne)  
 
 
 
