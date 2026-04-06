@@ -311,7 +311,7 @@ from bs4 import BeautifulSoup
 #     for line in file:
 #         print(line.strip())
 
-import csv
+# import csv
 
 # with open("couleurs_preferees.csv") as fichier_csv :
 #     # fichier_csv_reader = csv.reader(fichier_csv, delimiter=",")
@@ -323,18 +323,34 @@ import csv
 #         print(ligne)
 #         print(ligne['nom']+" travaille en tant que "+ligne['metier']+" et sa couleur préférée est "+ ligne['couleur_preferee'])
 
-en_tete = ["titre", "description"]
+import requests
+from bs4 import BeautifulSoup
+import csv
 
-with open("data.csv", "w") as fichier_csv:
-     # Créer un objet writer (écriture) avec ce fichier
-     writer = csv.writer(fichier_csv, delimiter=",")
-     wrtiter.writerow(en_tete)
-     # Parcourir les titres et descriptions - zip permet d'itérer sur deux listes ou plus à la fois
-     for titre, description in zip(titres, descriptions):
-           # Créer une nouvelle ligne avec le titre et la description à ce moment de la boucle
-           ligne = [titre, description]   
-           writer.writerrow(ligne)  
+url = "https://www.gov.uk/search/news-and-communications"
+reponse = requests.get(url)
+page = reponse.content
+soup = BeautifulSoup(page, "html.parser")
 
+titres = soup.find_all("a", class_="gem-c-document-List__item-Link")
+titres_text = []
+
+for titre in titres:
+    titres_text.append(titre.string)
+
+descriptions = soup.find_all("p", class_="gem-c-document-List__item-description")
+descriptions_text = []
+for description in descriptions:
+    descriptions_text.append(description.string)
+
+
+entetes = ["Titre", "Description"]
+with open("data.csv", "w") as csv_file : 
+    writer = csv.writer(csv_file, delimiter=",")
+    writer.writerow(entetes)
+for titre, description in zip(titres_text, descriptions_text): 
+      print(titre, description)     
+      writer.writerow([titre, description])
 
 
   
