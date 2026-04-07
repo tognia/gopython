@@ -323,34 +323,58 @@ from bs4 import BeautifulSoup
 #         print(ligne)
 #         print(ligne['nom']+" travaille en tant que "+ligne['metier']+" et sa couleur préférée est "+ ligne['couleur_preferee'])
 
+
 import requests
 from bs4 import BeautifulSoup
 import csv
 
-url = "https://www.gov.uk/search/news-and-communications"
-reponse = requests.get(url)
-page = reponse.content
-soup = BeautifulSoup(page, "html.parser")
+# # lien de la page à scrapper
+# url = "https://www.gov.uk/search/news-and-communications"
+# reponse = requests.get(url)
+# page = reponse.content
 
-titres = soup.find_all("a", class_="gem-c-document-List__item-Link")
-titres_text = []
+# # transforme (parse) le HTML en objet BeautifulSoup
+# soup = BeautifulSoup(page, "html.parser")
 
-for titre in titres:
-    titres_text.append(titre.string)
+# # récupération de tous les éléments
+# elements = soup.find_all("li", class_="gem-c-document-list__item")
 
-descriptions = soup.find_all("p", class_="gem-c-document-List__item-description")
-descriptions_text = []
-for description in descriptions:
-    descriptions_text.append(description.string)
+# resultats = []
+
+# for element in elements:
+#     titre = element.find("a", class_="govuk-link")
+#     description = element.find("p", class_="gem-c-document-list__item-description")
+#     donnee = (titre.string, description.string)
+#     resultats.append(donnee)
+
+# # création du fichier data.csv
+# en_tete = ["titre", "description"]
+# with open("data.csv", "w", newline="") as fichier_csv:
+#     writer = csv.writer(fichier_csv, delimiter=",")
+#     writer.writerow(en_tete)
+#     # zip permet d'itérer sur deux listes à la fois
+#     for donnee in resultats:
+#         writer.writerow(donnee)
+
+entete = ["nom", "salaire"]
+salaires = []
+
+with open("input.csv", "r") as input_csv:
+    reader = csv.DictReader(input_csv, delimiter=",")
+    for ligne in reader:
+        salaires.append((ligne["nom"], int(ligne["heures_travaillees"]) * 15))
+        print(ligne["nom"]+" a travaillé "+ligne["heures_travaillees"]+ " heures.")
+
+with open("output.csv", "w") as output_csv:
+    writer = csv.writer(output_csv, delimiter=",")
+    writer.writerow(entete)
+    for ligne in salaires:
+        writer.writerow(ligne)
 
 
-entetes = ["Titre", "Description"]
-with open("data.csv", "w") as csv_file : 
-    writer = csv.writer(csv_file, delimiter=",")
-    writer.writerow(entetes)
-for titre, description in zip(titres_text, descriptions_text): 
-      print(titre, description)     
-      writer.writerow([titre, description])
+
+
+
 
 
   
