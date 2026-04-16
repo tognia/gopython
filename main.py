@@ -244,9 +244,9 @@
 #     print(result)
 
 
-from calculatornew.operations import sum, division
-import requests
-from bs4 import BeautifulSoup
+# from calculatornew.operations import sum, division
+# import requests
+# from bs4 import BeautifulSoup
 
 # if __name__ == "__main__":
 #     resultat = sum(20, 30)
@@ -324,9 +324,9 @@ from bs4 import BeautifulSoup
 #         print(ligne['nom']+" travaille en tant que "+ligne['metier']+" et sa couleur préférée est "+ ligne['couleur_preferee'])
 
 
-import requests
-from bs4 import BeautifulSoup
-import csv
+# import requests
+# from bs4 import BeautifulSoup
+# import csv
 
 # # lien de la page à scrapper
 # url = "https://www.gov.uk/search/news-and-communications"
@@ -356,20 +356,28 @@ import csv
 #     for donnee in resultats:
 #         writer.writerow(donnee)
 
-entete = ["nom", "salaire"]
-salaires = []
+# entete = ["nom", "salaire"]
+# salaires = []
 
-with open("input.csv", "r") as input_csv:
-    reader = csv.DictReader(input_csv, delimiter=",")
-    for ligne in reader:
-        salaires.append((ligne["nom"], int(ligne["heures_travaillees"]) * 15))
-        print(ligne["nom"]+" a travaillé "+ligne["heures_travaillees"]+ " heures.")
+# with open("input.csv", "r") as input_csv:
+#     reader = csv.DictReader(input_csv, delimiter=",")
+#     for ligne in reader:
+#         salaires.append((ligne["nom"], int(ligne["heures_travaillees"]) * 15))
+#         print(ligne["nom"]+" a travaillé "+ligne["heures_travaillees"]+ " heures.")
 
-with open("output.csv", "w") as output_csv:
-    writer = csv.writer(output_csv, delimiter=",")
-    writer.writerow(entete)
-    for ligne in salaires:
-        writer.writerow(ligne)
+# with open("output.csv", "w") as output_csv:
+#     writer = csv.writer(output_csv, delimiter=",")
+#     writer.writerow(entete)
+#     for ligne in salaires:
+#         writer.writerow(ligne)
+
+import matplotlib.pyplot as plt
+
+plt.figure()
+
+plt.plot([1, 2, 3, 4, 5])
+
+plt.show()
 
 
 
